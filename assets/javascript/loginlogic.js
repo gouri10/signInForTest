@@ -58,6 +58,7 @@ function initApp() {
     // [END authstatelistener]
    // document.getElementById('quickstart-sign-in').addEventListener('click', toggleSignIn, false);
     document.getElementById('register').addEventListener('click', handleSignUp, false);
+    //document.getElementById('googleButton').addEventListener('click', onSignIn, false);
     //document.getElementById('quickstart-verify-email').addEventListener('click', sendEmailVerification, false);
     //document.getElementById('quickstart-password-reset').addEventListener('click', sendPasswordReset, false);
   }
