@@ -24,10 +24,22 @@ ul{
             
             }
 
-            .g-signin2{
-                display:inline-block;
-                width:90px;
-            }
+
+            .g-signin2
+{
+    max-width: 150px;
+    width: 100%;
+    background: #444444;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    margin-top:10px;
+    display:block;
+}
+
+        
 
 
 /* ****************************************** */
@@ -152,6 +164,8 @@ a{
     display:inline-block;
     padding:10px 0;
 }
+
+
 
 .register-show input[type="text"], .register-show input[type="password"]{
     width: 100%;
